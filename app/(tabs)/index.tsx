@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Task from '../../components/task';
+import Task from '../../components/Task';
 
 export default function HomeScreen() {
   return (
@@ -32,6 +32,6 @@ const styles = StyleSheet.create({
     fontSize: 24
   },
   items:{
-
+    marginTop: 20
   }
 });
